@@ -1,0 +1,12 @@
+name 'ads18f'
+maintainer 'Andy Zeswitz'
+maintainer_email 'andrew.zeswitz@icfi.com'
+license 'all_rights'
+description 'Installs/Configures ads18f'
+long_description 'Installs/Configures ads18f'
+version '0.1.0'
+
+depends 'apt', '~> 2.9.2'
+depends 'selinux', '~> 0.9.0'
+depends 'firewall', '~> 2.4.0'
+depends 'nginx', '~> 2.7.6'
